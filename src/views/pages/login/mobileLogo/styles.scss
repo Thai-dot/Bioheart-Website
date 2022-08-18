@@ -1,0 +1,13 @@
+.mobileLogo {
+  background-color: #8bef8c;
+  padding: 15px;
+  display: none;
+  width: 100%;
+
+}
+
+@media only screen and (max-width: 575px) {
+  .mobileLogo {
+    display: block;
+  }
+}

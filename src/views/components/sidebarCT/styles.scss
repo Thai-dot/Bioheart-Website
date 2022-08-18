@@ -1,0 +1,46 @@
+@import "../../../styles/colors.scss";
+
+
+.mainSidebar{
+  position: absolute;
+  top: 0%;
+  left: 94.33%;
+  display: inline-block;
+
+  width: 72px;
+  height: 100%;
+  background-image: $sidebar-bakground-color;
+}
+
+.expandButton{
+  cursor: pointer;
+}
+
+.avatar{
+  border: 3px white solid;
+}
+
+.sidebar-stick{
+  width: 32px;
+  height: 1px;
+opacity: 0.5;
+/* white */
+
+background-color: #FFFFFF;
+border:none;
+
+}
+
+.belowSidebarComponents{
+  margin-top: 440px;
+  padding: 20px;
+
+  img{
+    cursor: pointer;
+  }
+}
+
+.customAtag{
+  width: 32px;
+  height: 32px;
+}

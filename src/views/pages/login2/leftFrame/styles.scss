@@ -1,0 +1,144 @@
+.mainBack {
+  background-image: url("../../../../assets/images/png/LeftBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.arrow-left,
+.arrow-right {
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  z-index: 500;
+}
+
+.arrows {
+  width: 110px;
+  position: absolute;
+  top: 35px;
+  left: 100px;
+}
+
+.Maincarousel {
+  position: absolute;
+  top: 45%;
+  /* position the top  edge of the element at the middle of the parent */
+  left: 50%;
+  /* position the left edge of the element at the middle of the parent */
+  width: 400px;
+  height: 500px;
+
+  transform: translate(-50%, -50%);
+}
+
+.carouselImg {
+  width: 400.06px;
+  height: 400.25px;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .Maincarousel {
+    width: 260px;
+    height: 160px;
+    top: 25%;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 55%;
+    /* position the left edge of the element at the middle of the parent */
+
+  }
+
+  .carouselImg {
+    height: 300px;
+  }
+
+  .belowContent {
+    margin-top: 12px;
+  }
+
+  .bioheart-icon {
+    width: 110px;
+    height: 60px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .Maincarousel {
+    width: 190px;
+    height: 140px;
+    top: 25%;
+    /* position the top  edge of the element at the middle of the parent */
+    left: 55%;
+    /* position the left edge of the element at the middle of the parent */
+
+  }
+
+  .carouselImg {
+    height: 310px;
+  }
+
+  .belowContent {
+    margin-top: 35px;
+    font-size: 14px;
+  }
+
+  .bioheart-icon {
+    width: 80px;
+    height: 50px;
+  }
+
+  .arrows {
+    left: 15%;
+    top: 5%;
+
+  }
+}
+
+/*mobile version */
+@media only screen and (max-width: 575px) {
+  .bigleft {
+    display: none;
+  }
+
+  .bigright {
+    width: 100%;
+  }
+
+  .mobileLogo {
+    display: block;
+  }
+}
+
+.carousel-indicators {
+  bottom: -50px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #d2d4d6;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  background-color: #6eb43f;
+  width: 32px;
+  height: 6px;
+  border-radius: 8px;
+}
+
+.belowContent {
+  position: absolute;
+  width: 100%;
+  max-width: 780px;
+  max-height: 27px;
+  top: 70%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  margin-top: 20px;
+}

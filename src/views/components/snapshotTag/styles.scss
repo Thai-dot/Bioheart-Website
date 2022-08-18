@@ -1,0 +1,27 @@
+
+.snapshotTag{
+
+  padding: 2px 12px;
+  
+  width: 98px;
+  height: 24px;
+  
+  /* primary/lightest */
+  
+  background: #E6F4DC;
+  border-radius: 20px;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+  color: #40701F;
+  font-weight: 500;
+font-size: 14px;
+margin-right:10px;
+
+text-align: center;
+}
+

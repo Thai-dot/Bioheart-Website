@@ -1,0 +1,89 @@
+@import "../../../styles/colors";
+
+.mainClass{
+  
+  min-height: 100vh;
+   background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  ;
+}
+
+@mixin  mainStyle {
+  width: 300px;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  vertical-align: middle;
+
+  margin: auto {
+    bottom: 15px;
+    top: 15px;
+  }
+}
+
+.timeActiveBlock{
+  @include mainStyle;
+  background-color: aqua;
+}
+
+.timeInactiveBlock{
+  @include mainStyle;
+  background-color: black;
+  color: azure;
+}
+
+.timeActiveBlockHover{
+  @include mainStyle;
+  background-color: yellow;
+}
+
+.timeClickBlock{
+  outline: 3px solid $clickOutlineColor;
+  border: none;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title{
+  font-size: 3.5rem;
+}
+
+// drop down div animation
+@keyframes fade {
+  from {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(0px);
+  }
+  to { 
+    opacity: 1;
+    visibility: visible;
+    top: 300px;
+  }
+}
+
+.smallDiv{
+  top: 10px;
+  left: 100px;
+  display: none;
+  outline: 1px solid black;
+  box-shadow: 0px 0px 10px black;
+  padding: 1rem;
+  width: 180px;
+
+}
+
+.dropdown {
+   animation: fade 0.5s linear forwards;
+   display:block;
+   background-color: aquamarine;
+}
+
+.overflowDiv{
+  margin-top: 20px;
+  overflow-y: auto;
+  height: 550px;
+  width: 400px;
+}
+
+
+

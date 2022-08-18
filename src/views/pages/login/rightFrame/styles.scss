@@ -1,0 +1,142 @@
+@import "../../../../styles/colors.scss";
+
+.rightFrame {
+
+  height: 100vh;
+  background-image: url('../../../../assets/images/png/RightFrame.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  width: 100%;
+}
+
+.signInText {
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  color: #474748;
+}
+
+.formControl {
+  margin-top: 10px;
+
+}
+
+.inputBar {
+  max-width: 386px;
+  height: 48px !important;
+  background-color: $inputColor !important;
+  border-radius: 8px;
+  
+  &:focus {
+    outline: none !important;
+  background-color: $inputColor !important;
+  }
+}
+
+#forgotPass {
+  max-width: 386px;
+
+  text-align: right;
+  margin: 0;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #5e9937;
+}
+
+.rightFrameButton {
+  padding-right: 24px;
+  padding-left: 24px;
+  width: 100%;
+  max-width: 386px;
+  height: 44px;
+
+  border-radius: 40px;
+  border-width: 1px;
+  margin-top: 8px;
+  background-color: white;
+}
+
+.stick {
+  max-width: 65.5px;
+  min-width: 30px;
+  height: 0px;
+
+  /* coal/lighter */
+
+  border: 1px solid #e6e9eb;
+  transform: rotate(-180deg);
+}
+
+.greyText {
+  color: #696a6b;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  width: auto;
+}
+
+.whiteTextButton {
+  color: white;
+  background-color: #89c15d;
+  border: none;
+  outline: none;
+}
+
+.blackBorder {
+  border-color: #010203;
+}
+
+.greyTextButton {
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.blueTextButton {
+  color: #1877f2;
+  border-color: #1877f2;
+}
+
+.divCenter {
+  max-width: 386px;
+}
+
+.passBorder {
+  border: none;
+  max-width: 386px;
+  height: 48px;
+  background-color: $inputColor !important;
+  border-radius: 8px;
+}
+
+.passBorder:focus-within {
+  border: none !important;
+  color: #495057;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255, 0.25);
+}
+
+.passbar {
+  border: none !important;
+  max-width: 386px;
+  height: 47px;
+  background-color: $inputColor !important;
+}
+
+.bi-eye,
+.bi-eye-slash {
+  display: inline;
+}
+
+
+.passbar:focus {
+  background: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+

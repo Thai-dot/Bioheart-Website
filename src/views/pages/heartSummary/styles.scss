@@ -1,0 +1,98 @@
+.summaryBackground {
+  background-color: white;
+  box-shadow: 0px 6px 40px rgba(119, 153, 21, 0.05);
+  border-radius: 8px;
+  width: 1150px;
+  height: 656px;
+  margin-top: 20px;
+}
+
+.rightBackgroundBorder {
+  /* coal/light */
+  border-right: 1px solid #d2d4d6;
+}
+
+.left-summary {
+  width: 100%;
+}
+
+.chartTabGroup {
+  background: #f0f2f5;
+  border-radius: 8px;
+
+  height: 40px;
+}
+
+.chartTabGroupItem {
+  padding: 8px 16px;
+
+  &:hover, &Active{
+    background: #6eb43f;
+    color: white;
+    border-radius: 8px;
+  }
+}
+
+
+.navigateDateContent {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.indexFrame {
+  width: 100%;
+
+  &Item {
+    &Label {
+      background: #f5f7fa;
+      padding: 5px 40px;
+      font-weight: 500;
+      font-size: 12px;
+    }
+    &Value {
+      padding: 5px 40px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 25px;
+    }
+  }
+}
+
+.heartButton {
+  padding: 9px 12px 9px 16px;
+
+  width: 200px;
+  height: 36px;
+  /* primary/base */
+
+  background: #89c15d;
+  border-radius: 40px;
+  color: white;
+  border: #89c15d;
+}
+
+.reportHeart {
+  background: #f5f7fa;
+  /* coal/lighter */
+
+  border: 1px solid #e6e9eb;
+  border-radius: 4px;
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  &Label {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px;
+    padding-left: 12px;
+  }
+  &Value {
+    padding: 10px;
+    padding-top: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #696a6b;
+  }
+}
+
+

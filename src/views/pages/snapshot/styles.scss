@@ -1,0 +1,85 @@
+
+
+.snapshotInput{
+  
+  width: 920px;
+height: 44px;
+  
+  outline: none;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  
+
+  color: #333;
+  box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
+
+  background: #FFFFFF;
+/* coal/lighter */
+
+border: 1px solid #E6E9EB;
+border-radius: 8px;
+
+
+  &Child{
+    border: none;
+    background-color: #FFFFFF;
+    width: 100%;
+
+    &::placeholder{
+      color: #999;
+    }
+  }
+}
+
+.rightFrameButtonSnapshot{
+  width: 187px !important;
+  height: 38px !important;
+}
+
+.snapshotLeftFrame{
+  background: #FFFFFF;
+  height: 660px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 8px;
+  
+  }
+  
+  /* Track */
+  &::-webkit-scrollbar-track {
+    display:none;
+  }
+   
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #E6E9EB; 
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #E6E9EB; 
+  }
+
+  
+}
+
+.snapshotRightFrame{
+  background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(99, 134, 76, 0.1);
+border-radius: 4px 4px 0px 0px;
+width: 720px;
+}
+
+.snapshotDetailHeader{
+  background: #FFFFFF;
+box-shadow: 0px 4px 20px rgba(32, 47, 23, 0.05);
+height: 44px;
+  &Text{
+    font-weight: 600;
+font-size: 18px;
+color: #474748;
+  }
+}
+

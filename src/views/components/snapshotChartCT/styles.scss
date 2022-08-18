@@ -1,0 +1,55 @@
+.snapshot {
+  &Date {
+    background-color: #474748;
+    width: 100%;
+    color: white;
+  }
+  &ChartContent {
+    border: 1px solid #e6e9eb;
+    border-radius: 8px;
+    height: 200px;
+    width: 92%;
+
+    margin: 15px;
+  }
+  &Chart {
+    height: 170px;
+  }
+  &Minutes {
+    font-weight: 700;
+    font-size: 14px;
+    color: #696a6b;
+  }
+  &Pending {
+    font-weight: 500;
+    font-size: 14px;
+    color: #89c15d;
+  }
+  &Result {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ef2641;
+    &Unit {
+      font-weight: 500;
+      font-size: 12px;
+      color: #696a6b;
+    }
+  }
+  &ContainTag {
+    margin: 5px;
+  }
+  &Comment {
+    padding: 0px 12px 0px 16px;
+
+    width: 92%;
+    height: 33px;
+
+    /* fog background */
+
+    background: #f5f7fa;
+    border-radius: 4px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
